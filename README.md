@@ -1,7 +1,18 @@
 activeadmin_ajax-forms
 ======================
 
-ActiveAdmin plugin that allows to create/edit related models on the fly using modal popup forms.
-================================================================
+## Installation
 
-For more information go to the WIKI: https://github.com/bys-control/activeadmin-ajax_forms/wiki
+In your *Gemfile*:
+
+```ruby
+gem 'ajax_forms', github: 'Captive-Studio/activeadmin-ajax_forms'
+```
+  
+Then run `bundle install`.
+
+In your active_admin.js, include the js file:
+
+```javascript
+//= require arctic_admin/base
+```
