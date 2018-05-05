@@ -14,5 +14,5 @@ Then run `bundle install`.
 In your active_admin.js, include the js file:
 
 ```javascript
-//= require arctic_admin/base
+//= require ajax_forms/application
 ```
